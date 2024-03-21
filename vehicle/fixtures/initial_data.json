@@ -1,0 +1,183 @@
+[
+    {
+        "model": "vehicle.vehiclebrand", 
+        "pk": 1, 
+        "fields": 
+        {
+            "name": "Toyota"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclebrand", 
+        "pk": 2, 
+        "fields": 
+        {
+            "name": "Honda"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclebrand", 
+        "pk": 3, 
+        "fields": 
+        {
+            "name": "Ford"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 1, 
+        "fields": 
+        {
+            "brand": 1, 
+            "name": "Corolla"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 2, 
+        "fields": 
+        {
+            "brand": 1, 
+            "name": "RAV4"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 3, 
+        "fields": 
+        {
+            "brand": 1, 
+            "name": "Highlander"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 4, 
+        "fields": 
+        {
+            "brand": 2, 
+            "name": "Civic"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 5, 
+        "fields": 
+        {
+            "brand": 2, 
+            "name": "Accord"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 6, 
+        "fields": 
+        {
+            "brand": 2, 
+            "name": "CR-V"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 7, 
+        "fields": 
+        {
+            "brand": 3, 
+            "name": "Focus"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 8, 
+        "fields": 
+        {
+            "brand": 3, 
+            "name": "Fiesta"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclemodel", 
+        "pk": 9, 
+        "fields": 
+        {
+            "brand": 3, 
+            "name": "Fusion"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclecolor", 
+        "pk": 1, 
+        "fields": 
+        {
+            "name": "Branco"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclecolor", 
+        "pk": 2, 
+        "fields": 
+        {
+            "name": "Vermelho"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclecolor", 
+        "pk": 3, 
+        "fields": 
+        {
+            "name": "Azul"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclecondition", 
+        "pk": 2, 
+        "fields": 
+        {
+            "name": "Semi-novo"
+        }
+    }, 
+    {
+        "model": "vehicle.vehiclecondition", 
+        "pk": 3, 
+        "fields": 
+        {
+            "name": "Usado"
+        }
+    }, 
+    {
+        "model": "vehicle.vehicle", 
+        "pk": 1, 
+        "fields": 
+        {
+            "model": 1, 
+            "year": 2000, 
+            "color": 1, 
+            "purchase_year": 2001, 
+            "condition": 2
+        }
+    }, 
+    {
+        "model": "vehicle.vehicle", 
+        "pk": 2, 
+        "fields": 
+        {
+            "model": 5, 
+            "year": 2003, 
+            "color": 2, 
+            "purchase_year": 2003, 
+            "condition": 2
+        }
+    }, 
+    {
+        "model": "vehicle.vehicle", 
+        "pk": 3, 
+        "fields": 
+        {
+            "model": 7, 
+            "year": 2004, 
+            "color": 3, 
+            "purchase_year": 2010, 
+            "condition": 3
+        }
+    }
+]

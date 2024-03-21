@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # third party
     'crispy_forms',
     'crispy_bootstrap5',
+    # local
+    'vehicle.apps.VehicleConfig',
 ]
 
 MIDDLEWARE = [
