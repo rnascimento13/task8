@@ -16,10 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.shortcuts import redirect
 
 from vehicle.views import get_vehicle
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', lambda request: redirect('admin/', permanent=True)),
     path('vehicle/<int:pk>', get_vehicle, name='get_vehicle'),
 ]
